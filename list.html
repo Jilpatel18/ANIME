@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+        }
+        .container .photos{
+            width: 100%;
+            height: 550px;
+            display: flex;
+            justify-content: space-evenly;
+           align-items: center;
+         background-image: url(bg.jpeg);
+         background-repeat: no-repeat;
+         background-size: cover;
+        }
+
+        .container .photos #photo{
+            width: 350px;
+            border-radius: 35px;
+           transition: 1s;
+        }
+
+        .container .photos #photo:hover{
+            box-shadow: inset;
+            transform: scale(1.09);
+        }
+
+        .container .caption{
+            display: flex;
+            justify-content: space-evenly;
+            width: 100%;
+            font-size: x-large;
+            gap: 95px;
+
+        }
+
+        
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="photos">
+       <a href="https://9anime.org.lv/anime/one-piece/"><img id="photo" src="onepiece.jpeg" alt="no internet" ></a>
+
+  <a href="https://9anime.org.lv/anime/attack-on-titan-final-season-the-final-chapters/" ><img id="photo" src="aot.jpeg" alt="no internet" ></a>
+
+  <a href="https://hianime.to/watch/monster-37?ep=1046"><img id="photo" src="download (3).jpeg" alt="no internet" ></a>
+  
+    </div>
+
+    <div class="caption">
+        <p>ONE PIECE</p>
+        <p>ATTACK ON TITAN</p>
+        <p>MONSTER</p>
+    </div>
+</div>
+
+<div class="container">
+    <div class="photos">
+       <a href="https://9anime.org.lv/anime/solo-leveling-season-2-arise-from-the-shadow/"><img id="photo" src="download (4).jpeg" alt="no internet" ></a>
+
+  <a href="https://9anime.org.lv/anime/naruto-shippuuden-dub/" ><img id="photo" src="naruto.jpeg" alt="no internet" ></a>
+
+ 
+  
+    </div>
+
+    <div class="caption">
+        <p>SOLO LEVELING</p>
+        <p>NARUTO</p>
+      
+    </div>
+</div>
+</body>
+</html>
